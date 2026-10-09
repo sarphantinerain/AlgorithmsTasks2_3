@@ -10,6 +10,7 @@
 
 ```powershell
 Get-Content -Raw .\task1_5_matrix.txt | .\build\task1_5.exe
+.\build\task2_1.exe
 .\build\task2_2.exe
 .\build\task2_3.exe
 .\build\task3_1.exe
@@ -22,6 +23,7 @@ Get-Content -Raw .\task1_5_matrix.txt | .\build\task1_5.exe
 | Файл | Тема |
 | --- | --- |
 | `src/task1_5.cpp` | Разреженная матрица на `std::map` |
+| `src/task2_1.cpp` | Упорядоченный шаблонный список |
 | `src/task2_2.cpp` | Дек на кольцевом динамическом массиве |
 | `src/task2_3.cpp` | Кольцевой список студентов с несколькими связями |
 | `src/task3_1.cpp` | Двусвязный список внутри массива |
